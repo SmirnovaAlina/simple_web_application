@@ -1,4 +1,7 @@
 body{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
     background-color: lightgray;
 }
 
@@ -9,23 +12,29 @@ body{
 .navigation navbar-brand{
     margin-left: 50px;  
 }
+
+.navbar-brand{
+    margin-left: 30px;
+}
 .latitude{
     
     color: white; 
     padding: 20px; 
     font-weight: bold; 
     background-color: rgb(103, 194, 194);
-    font-family: 'Times New Roman';
+    font-family: "Times New Roman", Times, serif;
 
 }
 
 .box {
-    margin-top: 50px; 
+    margin-top: 20px; 
     margin-bottom: 30px; 
     padding: 20px ; 
     align-content: center;
     color:black;
     background-color: white; 
+    margin-left:10px;
+    margin-right:10px;
 }
 .title{
     padding-top: 25px;
@@ -36,4 +45,44 @@ body{
 }
 .image-left-box{
     float: left;
+    margin-right: 40px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px; 
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: #535151;
+    color: white;
+    text-align: center; 
+    border-top-color: rgb(103, 194, 194);
+    border-top-style: solid;;
+}
+
+
+@media(max-width: 1130px) {
+.v-box{
+    display: inline;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.box {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #nav-select {
+    visibility: visible;
+  }
+  @media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+        margin-right: 20 px;
+    }
+}
+
 }
