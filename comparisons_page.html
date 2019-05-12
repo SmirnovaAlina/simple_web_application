@@ -46,43 +46,39 @@
             </div>  
         </nav> 
     </div>
-    <div  class="contener">
-        <div  class="row">
-            <div class= "col-lg-8 col-sd-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="box">
-                    <h3 class="title">Summary: Latitude vs. X</h3>
+                    <h3 class="title">Comparison: Latitude vs X</h3>
                     <hr>
-                    <div id="summarytext">
-                        <img src= "Resources/Assets/Lat_vs_temp.png" class="image-left-box" alt= "Latitude vs Temperature" height="220" width="220">
-                        <p>
-                            The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                            <br><br>
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                            This site provides the source data and visualizations created as part of the analysis, 
-                            as well as explanations and descriptions of any trends and correlations witnessed.
-                        </p>
+                    <p style="font-size: small;">Click any plot to get an in-depth analysis.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h4 class="title">vs. Max Temperature</h4>
+                                <a href="visualization_t.html"><img src="Resources/Assets/Lat_vs_temp.png" alt="Latitude vs Temperature" height="350" width="450"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h4 class="title" >vs. Humidity</h4>
+                                <a href="visualization_hum.html"><img src="Resources/Assets/Lat_vs_Hum.png"  alt="Latitude vs Humidity" height="350" width="450"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h4 class="title" >vs. Cloudiness</h4>
+                                <a href="visualization_cloudiness.html"><img src="Resources/Assets/Lat_vs_Cloud.png"  alt="Latitude vs Cloudiness" height="350" width="450"></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h4 class="title" >vs. Wind Speed</h4>
+                                <a href="visualization_wind.html"><img src="Resources/Assets/Lat_vs_wind.png"  alt="Latitude vs Wind Speed" height="350" width="450"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div class="col-lg-8 col-sd-12">
-                <div class="box">
-                    <h4 class="title">Visualizations</h4>
-                    <hr>
-                    <div class="v-box">
-                       <a href="visualization_t.html"><img src="Resources/Assets/Lat_vs_temp.png" class="rounded float-left" alt="Latitude vs Temperature" height="180" width="180"></a>
-                       <a href="visualization_hum.html"><img src="Resources/Assets/Lat_vs_Hum.png" class="rounded float-right" alt="Latitude vs Humidity" height="180" width="180"></a>
-                    </div>
-                    <div class="v-box">  
-                       <a href="visualization_cloudiness.html"><img src="Resources/Assets/Lat_vs_Cloud.png" class="rounded float-left" alt="Latitude vs Cloudiness" height="180" width="180"></a>
-                       <a href="visualization_wind.html"><img src="Resources/Assets/Lat_vs_wind.png" class="rounded float-right" alt="Latitude vs Wind Speed" height="180" width="180"></a>
-                    </div>
-                </div>
-            </div>        
-        </div>
-    </div>    
+            </div>
+        </div>  
+    </div> 
     <div class="card-footer text-muted footer">
         Copyright &copy; Alina Smirnova 2018
     </div>
- 
-</body>
+         
+</body> 

@@ -48,20 +48,17 @@
     </div>
     <div  class="contener">
         <div  class="row">
-            <div class= "col-lg-8 col-sd-12">
+            <div class= "col-lg-7 col-sd-12">
                 <div class="box">
-                    <h3 class="title">Summary: Latitude vs. X</h3>
+                    <h3 class="title">Humidity</h3>
                     <hr>
                     <div id="summarytext">
-                        <img src= "Resources/Assets/Lat_vs_temp.png" class="image-left-box" alt= "Latitude vs Temperature" height="220" width="220">
+                        <img src= "Resources/Assets/Lat_vs_Hum.png" class="displayed" alt= "Latitude vs Humidity" height="400" width="620">
                         <p>
-                            The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                            <br><br>
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                            This site provides the source data and visualizations created as part of the analysis, 
-                            as well as explanations and descriptions of any trends and correlations witnessed.
+                            As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
+                            More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the
+                            year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this
+                            data was gathered.
                         </p>
                     </div>
                 </div>
@@ -70,12 +67,12 @@
                     <h4 class="title">Visualizations</h4>
                     <hr>
                     <div class="v-box">
-                       <a href="visualization_t.html"><img src="Resources/Assets/Lat_vs_temp.png" class="rounded float-left" alt="Latitude vs Temperature" height="180" width="180"></a>
-                       <a href="visualization_hum.html"><img src="Resources/Assets/Lat_vs_Hum.png" class="rounded float-right" alt="Latitude vs Humidity" height="180" width="180"></a>
+                        <a href="visualization_t.html"><img src="Resources/Assets/Lat_vs_temp.png" class="rounded float-left" alt="Latitude vs Temperature" height="180" width="180"></a>
+                        <a href="visualization_hum.html"><img src="Resources/Assets/Lat_vs_Hum.png" class="rounded float-right" alt="Latitude vs Humidity" height="180" width="180"></a>
                     </div>
                     <div class="v-box">  
-                       <a href="visualization_cloudiness.html"><img src="Resources/Assets/Lat_vs_Cloud.png" class="rounded float-left" alt="Latitude vs Cloudiness" height="180" width="180"></a>
-                       <a href="visualization_wind.html"><img src="Resources/Assets/Lat_vs_wind.png" class="rounded float-right" alt="Latitude vs Wind Speed" height="180" width="180"></a>
+                        <a href="visualization_cloudiness.html"><img src="Resources/Assets/Lat_vs_Cloud.png" class="rounded float-left" alt="Latitude vs Cloudiness" height="180" width="180"></a>
+                        <a href="visualization_wind.html"><img src="Resources/Assets/Lat_vs_wind.png" class="rounded float-right" alt="Latitude vs Wind Speed" height="180" width="180"></a>
                     </div>
                 </div>
             </div>        
@@ -84,5 +81,5 @@
     <div class="card-footer text-muted footer">
         Copyright &copy; Alina Smirnova 2018
     </div>
- 
+
 </body>
